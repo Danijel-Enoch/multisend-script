@@ -40,7 +40,7 @@ const readCSV = (csvFilePath) => {
             console.log(addresses.length, "Wallet addresses gathered")
             //getContract()
             for (let index = 2; index < addresses.length; index = index + 50) {
-                console.log("me", index)
+                console.log("batch No:", index)
                 let starter = index
                 let wallets = []
                 let amounts = []
